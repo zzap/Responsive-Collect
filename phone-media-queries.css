@@ -1,0 +1,669 @@
+/*
+ * Smart Phones
+ *
+ * Screen sizes, resolutions, pixel density, media queries
+ *
+ *  1. 800 x 1280 px
+ *  2. 720 x 1280 px
+ *  3. 600 x 800 px
+ *  4. 540 x 960 px
+ *  5. 480 x 854 px
+ *  6. 480 x 800 px
+ *  7. 480 x 640 px
+ *  8. 360 x 640 px
+ *  9. 320 x 480 px
+ * 10. 240 x 320 px
+ * 11. 640 x 960 px - retina
+ * 12. 640 x 1136 px - retina
+ *
+ *
+ *
+ * Devices:
+ *                    Apple -    iPhone 3G / 3GS
+ *                          -    iPhone 4 / 4s
+ *                          -    iPhone 5
+ *
+ *               BlackBerry -    Bold 9000
+ *                          -    Bold 9650
+ *                          -    Bold 9700/9780
+ *                          -    Bold 9790
+ *                          -    Bold 9900/9930
+ *                          -    Curve 8520/8530
+ *                          -    Curve 9350/9360/9370
+ *                          -    Curve 9380
+ *                          -    Torch 9850
+ *
+ *                     Dell -    Streak 5
+ *
+ *                    Meizu -    MX
+ *
+ *                 Motorola -    ADMIRAL
+ *                          -    Cliq
+ *                          -    Cliq 2
+ *                          -    Defy
+ *                          -    DROID / Milestone
+ *                          -    DROID 2 / Milestone 2
+ *                          -    DROID 3 / Milestone 3
+ *                          -    DROID X
+ *                          -    DROID X2
+ *                          -    DROID BIONIC
+ *                          -    DROID RAZR
+ *                          -    DROID Pro
+ *                          -    ATRIX 2
+ *                          -    ATRIX 4G
+ *                          -    Photon 4g / ELECTRIFY
+ *
+ *                   Google -    Galaxy Nexus
+ *                          -    Nexus One
+ *                          -    Nexus S
+ *
+ *                      HTC -    Amaze 4G
+ *                          -    Arrive
+ *                          -    Desire
+ *                          -    Desire S
+ *                          -    Desire Z
+ *                          -    Dream (T-Mobile G1)
+ *                          -    DROID Incredible
+ *                          -    DROID Incredible 2
+ *                          -    DROID ERIS
+ *                          -    Evo 3D
+ *                          -    Evo 4G
+ *                          -    HD7
+ *                          -    Inspire 4G / Desire HD
+ *                          -    Legend
+ *                          -    Radar
+ *                          -    Rezound
+ *                          -    Rhyme
+ *                          -    Sensation
+ *                          -    Sensation XE
+ *                          -    Sensation XL
+ *                          -    Surround
+ *                          -    Thunderbolt
+ *                          -    Titan
+ *                          -    Trophy
+ *                          -    Vivid
+ *                          -    Wildfire S
+ *
+ *                   Huawei -    Sonic
+ *
+ *                       LG -    Esteem
+ *                          -    Optimus 2X
+ *                          -    Optimus 7
+ *
+ *                    Nokia -    Lumia 710
+ *                          -    Lumia 800
+ *                          -    N8
+ *                          -    N9
+ *                          -    N900
+ *
+ *                  Pantech -    Pocket
+ *
+ *                  Samsung -    Captivate Glide
+ *                          -    Droid Charge
+ *                          -    Fascinate
+ *                          -    Focus
+ *                          -    Focus S
+ *                          -    Focus Flash
+ *                          -    Galaxy S
+ *                          -    Galaxy S Plus
+ *                          -    Galaxy S II
+ *                          -    Galaxy S II AT&T
+ *                          -    Galaxy S II Epic 4G Touch
+ *                          -    Galaxy S II T-Mobile
+ *                          -    Galaxy S II LTE
+ *                          -    Galaxy S II Skyrocket
+ *                          -    Galaxy S II HD LTE
+ *                          -    Galaxy Y
+ *                          -    Galaxy Y Pro
+ *                          -    Galaxy W
+ *                          -    Galaxy Ace
+ *                          -    Galaxy Gio
+ *                          -    Galaxy Mini
+ *                          -    Galaxy Note
+ *                          -    Infuse 4G
+ *                          -    Omnia 7
+ *                          -    Omnia W
+ *
+ *            Sony Ericsson -    Xperia Arc S
+ *                          -    Xperia Mini
+ *                          -    Xperia neo (V)
+ *                          -    Xperia Pro
+ *                          -    Xperia PLAY
+ *                          -    Xperia Ray
+ *                          -    Xperia X8
+ *                          -    Xperia X10
+ *
+ *                    Verzo -    Kinzo
+ *
+ *                      ZTE -    Skate
+ *                          -    Blade
+ *
+ *
+ *
+ * Sources:
+ *     - http://phone-size.com/
+ *     - http://nmsdvid.com/snippets/
+ *     - http://css-tricks.com/snippets/css/retina-display-media-query/
+ *     - http://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+ *     - http://en.wikipedia.org/wiki/Graphics_display_resolution
+ *
+ */
+
+
+/* ===============
+ * 800 x 1280 px
+ * ===============
+ *
+ * 5.3" screen - 285ppi
+ * ---------------------
+ * Samsung Galaxy Note
+ *
+ */
+
+@media only screen and (max-device-width: 1280px) and (orientation: landscape) {
+  
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 800px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-resolution: 285dpi) and (min-device-width : 800px) and (max-device-width : 1280px) {
+	
+	/* 	All Styles - add min-resolution to avoid targeting some laptops and desktops */
+	
+}
+
+/* ===============
+ * 720 x 1280 px
+ * ===============
+ *
+ * 4.3" screen - 342ppi
+ * ---------------------
+ * HTC Rezound
+ *
+ *
+ * 4.65" screen - 316 ppi
+ * ---------------------
+ * Google Galaxy Nexus
+ * Samsung Galaxy S II HD LTE
+ *
+ */
+
+@media only screen and (max-device-width: 1280px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 720px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-resolution: 316dpi) and (min-device-width : 720px) and (max-device-width : 1280px) {
+	
+	/* 	All Styles - add min-resolution to avoid targeting some laptops and desktops */
+	
+}
+
+/* ===============
+ * 600 x 800 px
+ * ===============
+ *
+ * 4" screen - 250ppi
+ * ---------------------
+ * Pantech Pocket
+ *
+ */
+
+@media only screen and (max-device-width: 800px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 600px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-device-width : 600px) and (max-device-width : 800px) {
+	
+	/* 	All Styles - shared with some tablets  - add (min-resolution: 250dpi) to separate them */
+}
+
+/* ===============
+ * 540 x 960 px
+ * ===============
+ *
+ * 4" screen - 275ppi
+ * ---------------------
+ * Motorola Atrix 4G
+ * Motorola DROID 3 / Milestone 3
+ *
+ *
+ * 4.3" screen - 256ppi
+ * ---------------------
+ * Motorola ATRIX 2
+ * Motorola DROID BIONIC
+ * Motorola DROID RAZR
+ * Motorola DROID X2
+ * Motorola Photon 4g / ELECTRIFY
+ * HTC Amaze 4G
+ * HTC Evo 3D
+ * HTC Sensation
+ * HTC Sensation XE
+ *
+ *
+ * 4.5" screen - 245ppi
+ * ---------------------
+ * HTC Vivid
+ *
+ */
+
+@media only screen and (max-device-width: 960px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 540px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-device-width : 540px) and (max-device-width : 960px) {
+	
+	/* 	All Styles */
+	
+}
+
+/* ===============
+ * 480 x 854 px
+ * ===============
+ *
+ * 3.3" screen - 297ppi
+ * ---------------------
+ * Sony Ericsson Xperia Ray
+ *
+ *
+ * 3.7" screen - 265ppi
+ * ---------------------
+ * Motorola Cliq 2
+ * Motorola Defy
+ * Motorola DROID / Milestone
+ * Motorola DROID 2 / Milestone 2
+ * Sony Ericsson Xperia neo (V)
+ * Sony Ericsson Xperia Pro
+ *
+ *
+ * 3.9" screen - 251ppi
+ * ---------------------
+ * Nokia N9
+ *
+ *
+ * 4" screen - 245ppi
+ * ---------------------
+ * Sony Ericsson Xperia PLAY
+ * Sony Ericsson Xperia X10
+ *
+ *
+ * 4.2" screen - 233ppi
+ * ---------------------
+ * Sony Ericsson Xperia Arc S
+ *
+ *
+ * 4.3" screen - 228ppi
+ * ---------------------
+ * Motorola DROID X
+ *
+ */
+
+@media only screen and (max-device-width: 854px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-device-width : 480px) and (max-device-width : 854px) {
+	
+	/* 	All Styles */
+	
+}
+
+/* ===============
+ * 480 x 800 px
+ * ===============
+ *
+ * 3.5" screen - 267ppi
+ * ---------------------
+ * Nokia N900
+ * ZTE Blade
+ *
+ *
+ * 3.6" screen - 259ppi
+ * ---------------------
+ * HTC Arrive
+ *
+ *
+ * 3.7" screen - 252ppi
+ * ---------------------
+ * BlackBerry Torch 9850
+ * Google Nexus One
+ * HTC Desire
+ * HTC Desire S
+ * HTC Desire Z
+ * HTC DROID Incredible
+ * HTC Rhyme
+ * Nokia Lumia 710
+ * Nokia Lumia 800
+ * Samsung Focus Flash
+ * Samsung Galaxy W
+ * Samsung Omnia W
+ *
+ *
+ * 3.8" screen - 246ppi
+ * ---------------------
+ * HTC Radar
+ * HTC Surround
+ * HTC Trophy
+ * LG Optimus 7
+ *
+ *
+ * 4" screen - 233ppi
+ * ---------------------
+ * Google Nexus S
+ * HTC DROID Incredible 2
+ * LG Optimus 2X
+ * Samsung Captivate Glide
+ * Samsung Fascinate
+ * Samsung Focus
+ * Samsung Galaxy S
+ * Samsung Galaxy S Plus
+ * Samsung Omnia 7
+ *
+ *
+ * 4.3" screen - 217ppi
+ * ---------------------
+ * HTC Evo 4G
+ * HTC HD7
+ * HTC Inspire 4G / Desire HD
+ * HTC Thunderbolt
+ * LG Esteem
+ * Samsung Droid Charge
+ * Samsung Focus S
+ * Samsung Galaxy S II
+ * Samsung Galaxy S II AT&T
+ * Verzo Kinzo
+ * ZTE Skate
+ *
+ *
+ * 4.5" screen - 207ppi
+ * ---------------------
+ * Samsung Galaxy S II LTE
+ * Samsung Galaxy S II Skyrocket
+ * Samsung Infuse 4G
+ *
+ *
+ * 4.52" screen - 206ppi
+ * ---------------------
+ * Samsung Galaxy S II Epic 4G Touch
+ * Samsung Galaxy S II T-Mobile
+ *
+ *
+ * 4.7" screen - 199ppi
+ * ---------------------
+ * HTC Sensation XL
+ * HTC Titan
+ *
+ *
+ * 5" screen - 187ppi
+ * ---------------------
+ * Dell Streak 5
+ *
+ */
+
+@media only screen and (max-device-width: 800px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-device-width : 480px) and (max-device-width : 800px) {
+	
+	/* 	All Styles - shared with some tablets - add (min-resolution: 187dpi) to separate them */
+	
+}
+
+/* ===============
+ * 480 x 640 px
+ * ===============
+ *
+ * 2.8" screen - 286ppi
+ * ---------------------
+ * BlackBerry Bold 9900/9930
+ *
+ *
+ * 3.1" screen - 258ppi
+ * ---------------------
+ * Motorola ADMIRAL
+ *
+ */
+
+@media only screen and (max-device-width: 640px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-device-width : 480px) and (max-device-width : 640px) {
+	
+	/* 	All Styles */
+	
+}
+
+/* ===============
+ * 360 x 640 px
+ * ===============
+ *
+ * 3.5" screen - 210ppi
+ * ---------------------
+ * Nokia N8
+ *
+ */
+
+@media only screen and (max-device-width: 640px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 360px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+	
+	/* 	All Styles */
+	
+}
+
+/* ===============
+ * 320 x 480 px
+ * ===============
+ *
+ * 2.44" screen - 246ppi
+ * ---------------------
+ * BlackBerry Curve 9350/9360/9370
+ * BlackBerry Bold 9650
+ * BlackBerry Bold 9700/9780
+ *
+ *
+ * 2.45" screen - 245ppi
+ * ---------------------
+ * BlackBerry Bold 9790
+ *
+ *
+ * 2.6" screen - 222ppi
+ * ---------------------
+ * BlackBerry Bold 9000
+ *
+ *
+ * 3" screen - 192ppi
+ * ---------------------
+ * Sony Ericsson Xperia Mini
+ * Sony Ericsson Xperia X8
+ *
+ *
+ * 3.1" screen - 186ppi
+ * ---------------------
+ * Motorola Cliq
+ * Motorola DROID Pro
+ *
+ *
+ * 3.2" screen - 180ppi
+ * ---------------------
+ * HTC Dream (T-Mobile G1)
+ * HTC DROID ERIS
+ * HTC Legend
+ * HTC Wildfire S
+ * Samsung Galaxy Gio
+ * BlackBerry Curve 9380  - 188ppi
+ *
+ *
+ *
+ * 3.5" screen - 165ppi
+ * ---------------------
+ * Apple iPhone 3G / 3GS
+ * Huawei Sonic
+ * Samsung Galaxy Ace
+ *
+ */
+
+@media only screen and (max-device-width: 480px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 320px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	
+	/* 	All Styles */
+	
+}
+
+/* ===============
+ * 240 x 320 px
+ * ===============
+ *
+ * 2.46" screen - 163ppi
+ * ---------------------
+ * BlackBerry Curve 8520/8530
+ *
+ *
+ * 2.6" screen - 154ppi
+ * ---------------------
+ * Samsung Galaxy Y Pro
+ *
+ *
+ * 3" screen - 133ppi
+ * ---------------------
+ * Samsung Galaxy Y
+ *
+ *
+ * 3.14" screen - 127ppi
+ * ---------------------
+ * Samsung Galaxy Mini
+ *
+ */
+
+@media only screen and (max-device-width: 320px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 240px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-device-width : 240px) and (max-device-width : 320px) {
+	
+	/* 	All Styles */
+	
+}
+
+
+/* ===============
+ * Retina
+ * ===============*/
+
+/* ===============
+ * 640 x 960 px
+ * ===============
+ *
+ * 3.5" screen - 330 ppi
+ * ---------------------
+ * Apple iPhone 4
+ * Apple iPhone 4s
+ *
+ *
+ * 4" screen - 288 ppi
+ * ---------------------
+ * Meizu MX
+ *
+ *
+ * ===============
+ * 640 x 1136 px
+ * ===============
+ *
+ * 4" screen - 326 ppi
+ * ---------------------
+ * Apple iPhone 5
+ *
+ */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5) and (min-width: 640px),
+only screen and (        min-device-pixel-ratio : 1.5) and (min-width: 640px) {
+	
+	/* 	Retina Styles */
+	
+}
+

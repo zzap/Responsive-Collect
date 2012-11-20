@@ -1,0 +1,631 @@
+/*
+ * Tablets
+ *
+ * Screen sizes, resolutions, pixel density, media queries
+ *
+ *  1. 1920 x 1280 px
+ *  2. 1920 x 1200 px
+ *  3. 1920 x 1080 px
+ *  4. 1440 x 900 px
+ *  5. 1366 x 768 px
+ *  6. 1280 x 800 px
+ *  7. 1280 x 768 px
+ *  8. 1024 x 768 px
+ *  9. 1024 x 600 px
+ * 10.  800 x 600 px
+ * 11.  800 x 480 px
+ * 12.  800 x 400 px
+ * 13. 2048 x 1536 px - retina
+ *
+ *
+ * Devices:
+ *                     Acer -    Iconia A100
+ *                          -    Iconia A200
+ *                          -    Iconia A500
+ *                          -    Iconia A510
+ *                          -    Iconia A700
+ *                          -    Iconia W500
+ *                          -    Iconia W510
+ *                          -    Iconia W700
+ *
+ *                   Amazon -    Kindle Fire
+ *                          -    Kindle Fire 2nd
+ *                          -    Kindle Fire HD 7
+ *
+ *                    Apple -    iPad
+ *                          -    iPad 2
+ *                          -    iPad 3
+ *
+ *                   Archos -    70
+ *                          -    80 G9 Classic
+ *                          -    9 PC tablet
+ *                          -    101 Internet Tablet
+ *
+ *                     Asus -    Vivo Tab RT
+ *                          -    Transformer Infinity
+ *                          -    Transformer Prime
+ *                          -    Transformer Pad 300
+ *                          -    Eee Pad Transformer
+ *                          -    Eee Pad Slider
+ *
+ *                    Augen -    GenTouch78
+ *
+ *             Barnes&Noble -    Nook Tablet
+ *                          -    Nook Color
+ *                          -    Nook HD
+ *                          -    Nook HD+
+ *
+ *               BlackBerry -    PlayBook
+ *
+ *               Coby Kyros -    MID 1024, MID 1125
+ *                          -    MID 7015, MID 7016
+ *                          -    MID 7022, MID 7024
+ *                          -    7042
+ *                          -    MID 7125, MID 7127
+ *                          -    MID 8125, MID 8024
+ *
+ *                      CTL -    2goPad SL10
+ *
+ *                     Dell -    Streak 5
+ *                          -    Streak 7
+ *
+ *                     EFun -    Nextbook Next5
+ *
+ *                    ExoPC -    Slate
+ *
+ *                  Fujitsu -    Stylistic Q550
+ *
+ *                     Fuhu -    Nabi 2
+ *
+ *              Google/Asus -    Nexus 7
+ *
+ *                       HP -    TouchPad
+ *                          -    Slate 500
+ *
+ *                      HTC -    Flyer 7
+ *                          -    EVO View 4G
+ *
+ *                   Lenovo -    ThinkPad Tablet
+ *                          -    IdeaPad A1
+ *                          -    IdeaPad K1
+ *                          -    IdeaTab S2109
+ *                          -    IdeaTab S2110
+ *
+ *                   Le Pan -    TC 970
+ *                          -    II
+ *
+ *        Netbook Navigator -    NAV 9 Slate PC
+ *
+ *               Notion Ink -    Adam
+ *
+ *                  Maylong -    Universe M 150
+ *
+ *        Microsoft Surface -    Windows RT
+ *
+ *                 Motorola -    Droid XYboard
+ *                          -    XOOM
+ *
+ *                      MSI -    WindPad 110W
+ *
+ *               Pandigital -    Multimedia Novel
+ *
+ *                  Samsung -    Ativ Smart PC
+ *                          -    Ativ Smart PC Pro
+ *                          -    Galaxy Tab 7
+ *                          -    Galaxy Tab 7.0 +
+ *                          -    Galaxy Tab2 7.0
+ *                          -    Galaxy Tab 7.7
+ *                          -    Galaxy Tab 8.9
+ *                          -    Galaxy Tab 10.1
+ *                          -    Galaxy Tab2 10.1
+ *                          -    Galaxy Note 10.1
+ *
+ *                     Sony -    Tablet S
+ *                          -    Xperia Tablet S
+ *
+ *                 T-Mobile -    G-Slate 4G
+ *
+ *                  Toshiba -    Excite 7.7
+ *                          -    Excite 10
+ *                          -    Excite 10LE
+ *                          -    Thrive
+ *
+ *                 Velocity -    Micro Cruz
+ *
+ *                Viewsonic -    Viewpad 7
+ *                          -    ViewPad 10
+ *
+ *                    Vizio -    8" Tablet VTAB1008
+ *
+ *
+ *
+ * Sources:
+ *     - http://www.tabletpccomparison.net/display-size/small-7-inch
+ *     - http://www.tabletpccomparison.net/display-size/medium-8-9-inch
+ *     - http://www.tabletpccomparison.net/display-size/large-more-than-10-inch
+ *     - http://nmsdvid.com/snippets/
+ *     - http://css-tricks.com/snippets/css/retina-display-media-query/
+ *     - http://en.wikipedia.org/wiki/Graphics_display_resolution
+ *
+ */
+
+
+/* ===============
+ * 1920 x 1280 px
+ * ===============
+ *
+ * 9.0" screen - 256ppi
+ * ---------------------
+ * Barnes&Noble Nook HD+
+ *
+ */
+
+@media only screen and (max-device-width: 1920px) and (orientation: landscape) {
+  
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 1280px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-resolution: 256dpi) and (min-device-width : 1280px) and (max-device-width : 1920px) {
+	
+	/* 	All Styles - add min-resolution to avoid targeting some laptops and desktops */
+	
+}
+
+/* ===============
+ * 1920 x 1200 px
+ * ===============
+ *
+ * 10.1" screen - 224ppi
+ * ---------------------
+ * Acer Iconia A700
+ * Asus Transformer Infinity
+ *
+ */
+
+@media only screen and (max-device-width: 1920px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 1200px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-resolution: 224dpi) and (min-device-width : 1200px) and (max-device-width : 1920px) {
+	
+	/* 	All Styles - add min-resolution to avoid targeting some laptops and desktops */
+	
+}
+
+/* ===============
+ * 1920 x 1080 px
+ * ===============
+ *
+ * 11.6" screen - 190ppi
+ * ---------------------
+ * Acer Iconia W700
+ * Samsung Ativ Smart PC Pro
+ *
+ */
+
+@media only screen and (max-device-width: 1920px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 1080px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-resolution: 190dpi) and (min-device-width : 1080px) and (max-device-width : 1920px) {
+	
+	/* 	All Styles - add min-resolution to avoid targeting some laptops and desktops */
+	
+}
+
+/* ===============
+ * 1440 x 900 px
+ * ===============
+ *
+ * 7.0" screen - 243ppi
+ * ---------------------
+ * Barnes&Noble Nook HD
+ *
+ */
+
+@media only screen and (max-device-width: 1440px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 900px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-resolution: 243dpi) and (min-device-width : 900px) and (max-device-width : 1440px) {
+	
+	/* 	All Styles - add min-resolution to avoid targeting some laptops and desktops */
+	
+}
+
+/* ===============
+ * 1366 x 768 px
+ * ===============
+ *
+ * 10.1" screen - 155ppi
+ * ---------------------
+ * Asus Vivo Tab RT
+ * Acer Iconia W510
+ *
+ *
+ * 10.6" screen - 149ppi
+ * ---------------------
+ * Microsoft Surface Win. RT
+ *
+ *
+ * 11.6" screen - 135ppi
+ * ---------------------
+ * Samsung Ativ Smart PC
+ * ExoPC Slate
+ *
+ */
+
+@media only screen and (max-device-width: 1366px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 768px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-resolution: 135dpi) and (min-device-width : 768px) and (max-device-width : 1366px) {
+	
+	/* 	All Styles - add min-resolution to avoid targeting some laptops and desktops */
+	
+}
+
+/* ===============
+ * 1280 x 800 px
+ * ===============
+ *
+ * 7.0" screen - 216ppi
+ * ---------------------
+ * Google/Asus Nexus 7
+ * Amazon Kindle Fire HD 7
+ *
+ *
+ * 7.7" screen - 196ppi
+ * ---------------------
+ * Samsung Galaxy Tab 7.7
+ * Toshiba Excite 7.7
+ *
+ *
+ * 8.9" screen - 169ppi
+ * ---------------------
+ * Samsung Galaxy Tab 8.9
+ *
+ *
+ * 9.4" screen - 161ppi
+ * ---------------------
+ * Sony Xperia Tablet S
+ * Sony Tablet S
+ *
+ *
+ * 10.0" screen - 149ppi
+ * ---------------------
+ * MSI WindPad 110W
+ *
+ *
+ * 10.1" screen - 149ppi
+ * ---------------------
+ * Lenovo IdeaPad K1
+ * Lenovo IdeaTab S2110
+ * Lenovo ThinkPad Tablet
+ * Motorola Droid XYboard
+ * Samsung Galaxy Note 10.1
+ * Samsung Galaxy Tab 10.1
+ * Samsung Galaxy Tab2 10.1
+ * Toshiba Excite 10
+ * Toshiba Excite 10LE
+ * Toshiba Thrive
+ * Fujitsu Stylistic Q550
+ * Asus Transformer Prime
+ * Asus Transformer Pad 300
+ * Asus Eee Pad Transformer
+ * Asus Eee Pad Slider
+ * Acer Iconia A200
+ * Acer Iconia A500
+ * Acer Iconia A510
+ * Acer Iconia W500       - 146ppi
+ * Motorola XOOM          - 142ppi
+ *
+ *
+ */
+
+@media only screen and (max-device-width: 1280px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 800px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-resolution: 149dpi) and (min-device-width : 800px) and (max-device-width : 1280px) {
+	
+	/* 	All Styles - add min-resolution to avoid targeting some laptops and desktops */
+	
+}
+
+/* ===============
+ * 1280 x 768 px
+ * ===============
+ *
+ * 8.9" screen - 167ppi
+ * ---------------------
+ * T-Mobile G-Slate 4G
+ *
+ */
+
+@media only screen and (max-device-width: 1280px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 768px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-resolution: 167dpi) and (min-device-width : 768px) and (max-device-width : 1280px) {
+	
+	/* 	All Styles - add min-resolution to avoid targeting some laptops and desktops */
+	
+}
+
+/* ===============
+ * 1024 x 768 px
+ * ===============
+ *
+ * 8.0" screen - 160ppi
+ * ---------------------
+ * Vizio 8 Tablet VTAB1008
+ * Archos 80 G9 Classic
+ *
+ *
+ * 9.7" screen - 132ppi
+ * ---------------------
+ * Lenovo IdeaTab S2109
+ * Le Pan TC 970
+ * Le Pan II
+ * Apple iPad
+ * Apple iPad 2
+ * HP TouchPad   - 131ppi
+ *
+ */
+
+@media only screen and (max-device-width: 1024px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 768px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-resolution: 131dpi) and (min-device-width : 768px) and (max-device-width : 1024px) {
+	
+	/* 	All Styles - add min-resolution to avoid targeting some laptops and desktops */
+	
+}
+
+/* ===============
+ * 1024 x 600 px
+ * ===============
+ *
+ * 7.0" screen - 169ppi
+ * ---------------------
+ * Acer Iconia A100            - 170ppi
+ * Fuhu Nabi 2                 - 170ppi
+ * Lenovo IdeaPad A1           - 170ppi
+ * HTC EVO View 4G             - 170ppi
+ * Barnes&Noble Nook Tablet
+ * HTC Flyer 7
+ * Amazon Kindle Fire
+ * Amazon Kindle Fire 2nd
+ * Samsung Galaxy Tab2 7.0
+ * Samsung Galaxy Tab 7
+ * Samsung Galaxy Tab 7.0 +
+ * Barnes&Noble Nook Color
+ * BlackBerry PlayBook
+ *
+ *
+ * 8.9" screen - 133ppi
+ * ---------------------
+ * HP Slate 500
+ * Netbook Navigator NAV 9	Slate PC
+ * Archos 9 PC tablet
+ *
+ *
+ * 10.0" screen - ?
+ * ---------------------
+ * Coby Kyros MID 1024, MID 1125
+ * ViewSonic ViewPad 10
+ *
+ *
+ * 10.1" screen
+ * ---------------------
+ * Notion ink Adam             - 117ppi
+ * Archos 101 Internet Tablet  - 149ppi
+ * CTL 2goPad SL10
+ *
+ */
+
+@media only screen and (max-device-width: 1024px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 600px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-device-width : 600px) and (max-device-width : 1024px) {
+	
+	/* 	All Styles */
+	
+}
+
+/* ===============
+ * 800 x 600 px
+ * ===============
+ *
+ * 7.0" screen - 143ppi
+ * ---------------------
+ * Pandigital Multimedia Novel
+ *
+ * unknown
+ * ---------------------
+ * Coby Kyros MID 8125, MID 8024
+ *
+ */
+
+@media only screen and (max-device-width: 800px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 600px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-device-width : 600px) and (max-device-width : 800px) {
+	
+	/* 	All Styles - shared with some smart phones  - add (max-resolution: 250dpi) to separate them */
+	
+}
+
+/* ===============
+ * 800 x 480 px
+ * ===============
+ *
+ * 7.0" screen - 133ppi
+ * ---------------------
+ * Dell Streak 5
+ * Dell Streak 7
+ * Coby Kyros MID 7015, MID 7016
+ * Coby Kyros MID 7022, MID 7024
+ * Coby Kyros 7042
+ * Coby Kyros MID 7125, MID 7127
+ * Viewsonic Viewpad 7
+ * Augen GenTouch78
+ * EFun Nextbook Next5
+ * Maylong Universe M 150
+ * Velocity Micro Cruz
+ *
+ */
+
+@media only screen and (max-device-width: 800px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-device-width : 480px) and (max-device-width : 800px) {
+	
+	/* 	All Styles - shared with some smart phones - add (max-resolution: 187dpi) to separate them */
+	
+}
+
+/* ===============
+ * 800 x 400 px
+ * ===============
+ *
+ * Archos 70
+ *
+ */
+
+@media only screen and (max-device-width: 800px) and (orientation: landscape) {
+	
+	/* 	Landscape Styles */
+	
+}
+
+@media only screen and (max-device-width: 400px) and (orientation: portrait) {
+	
+	/* 	Portrait Styles */
+	
+}
+
+@media only screen and (min-device-width : 400px) and (max-device-width : 800px) {
+	
+	/* 	All Styles - shared with some smart phones - add (max-resolution: 187dpi) to separate them */
+	
+}
+
+
+/* ===============
+ * Retina
+ * ===============*/
+
+/* ===============
+ * 2048 x 1536 px
+ * ===============
+ *
+ * 9.7" screen - 264ppi
+ * ---------------------
+ * Apple iPad 3
+ *
+ */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1536px),
+only screen and (        min-device-pixel-ratio: 2) and (min-width: 1536px) {
+	
+	/* 	Retina Styles */
+	
+}
+
+
+
+
